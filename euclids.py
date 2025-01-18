@@ -14,7 +14,7 @@ def gcd(m, n):
     '''
     if n == 0:
         return m
-    return gcd(n, m%n)
+    return gcd(n, m % n)
 
 
 def main():
@@ -25,4 +25,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
